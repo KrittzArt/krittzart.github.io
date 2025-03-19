@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 80em;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    width: 80px;
+
+    /*background-image: url("background.svg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+}
+
+.ct-block {
+    display: block;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td, th { /* table cells */
+    padding: 10px;
+}
+
+.ct-sidebar {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #2F3237;
+    color: #ffffff;
+    position: fixed !important;
+    z-index: 1;
+}
+
+.ct-header {
+    height: 4em;
+    position: fixed !important;
+    background: linear-gradient(-0.25turn, #185fb5, #42b5cb);;
+    /*padding:0.01em 16px;*/
+}
+
+.ct-container {
+    padding:0.01em 16px;
+}
+
+.ct-content {
+    color: #151a1e;
+    background: #ffffff;
+}
+
+.ct-sidebar hr {
+    border: 1px solid #ffffff;
+}
+
+.ct-content hr {
+    border: 1px solid #151a1e;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    color: #151a1e;
+    vertical-align: middle;
+}
+
+.ct-img-header {
+    display: inline-flex;
+    flex-direction: row;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+body {
+    background-color: #2F3237;
+}
+
+#ct-app, .ct-header {
+    width: 100em;
+}
